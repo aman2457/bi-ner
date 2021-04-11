@@ -30,4 +30,12 @@
  ![image](https://user-images.githubusercontent.com/54279054/114306023-1fbd5200-9af8-11eb-8406-eb406469acf4.png)
 
 ### How to install the project
-- Go to this repository's main page and clone it.
+#### Open VScode and open a terminal inside it and run the following steps
+1. Clone this repository using the code below.
+    - ```git clone https://github.com/aman2457/bi-ner.git```
+  
+2. Install the required package and libraries using command.
+   - ```pip install -r requirements.txt```
+
+3. Now run the below command in cli to open the app.
+   - ```streamlit run app.py```
