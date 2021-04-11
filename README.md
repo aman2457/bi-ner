@@ -39,3 +39,15 @@
 
 3. Now run the below command in cli to open the app.
    - ```streamlit run app.py```
+
+
+### Some information regarding the app.
+1. The app fetch the text from wikipedia which matches with the user's keyword. If multiple pages found with same keyword then a random page is choosen.
+2. The extracted text then loaded into a NLP model which peform NER.
+3. After the NER the ouptut is feeded into a spacy_streamlit.visualize_ner funtion of streamlit_spacy which visualize the text based on NER.
+
+### Caution :- 
+1. If you are not getting output on the given keyword there may be folliwing reason:- 
+    - Server get time out
+    - No Wikipedia page matched with keyword
+    - A page title unexpectedly resolves to a redirect
