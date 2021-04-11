@@ -1,0 +1,4 @@
+wikipedia==1.4.0
+streamlit==0.80.0
+spacy_streamlit==1.0.0
+spacy==3.0.5
