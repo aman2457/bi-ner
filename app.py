@@ -1,5 +1,4 @@
 # Core Pkgs
-import os
 import wikipedia
 import random
 
